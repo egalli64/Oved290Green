@@ -6,3 +6,4 @@ values ('Giunti', 'Roma', 'IT');
 insert into publishers(pub_name, city, country)
 values ('Mondadori', 'Milano', 'IT');
 commit;
+
