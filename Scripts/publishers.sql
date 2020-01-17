@@ -1,3 +1,12 @@
+create table publishers(
+pub_id integer primary key auto_increment,
+pub_name varchar(20),
+city varchar(20),
+country varchar(20),
+book_id integer references books(book_id));
+
+drop table publishers;
+
 SELECT * FROM greenbook.publishers;
 insert into publishers(pub_name, city, country)
 values ('Feltrinelli', 'Milano', 'IT');
