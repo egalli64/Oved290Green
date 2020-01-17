@@ -1,4 +1,5 @@
-create database GreenBook;
+
+
 create table books(
 book_id integer primary key auto_increment,
 title varchar(50),
